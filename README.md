@@ -55,7 +55,6 @@ Triggered function: hello/index.js
 # Flow:
 User sends a GET request to /api/hello, passing the JWT token in the Authorization header.
 Azure Function App routes the request to hello/index.js.
-
 hello/index.js:
 Extracts the token from the header.
 Verifies it using jsonwebtoken.
@@ -154,6 +153,11 @@ Azure Functions uses the Function Host Process to execute your JavaScript code i
 1. Extracts Authorization header.
 2. Verifies the token.
 3. If valid → Returns the Hello message.
+
+
+#### end of it ###
+
+Note: Please use edit mode in github repository if you do not get  comfort veiw of document . Also i am not using any branching strategy here, directly commitming my changes to main branch.
 
 
 
