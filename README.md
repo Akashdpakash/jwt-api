@@ -1,6 +1,6 @@
 # jwt-api
 
-# Below is the structure of project folder : excluded github actions yaml file. which comes under 
+# Below is the structure of project folder 
 
 jwt-api/
 │── .github/              # GitHub Actions workflows
