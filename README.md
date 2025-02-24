@@ -157,7 +157,7 @@ Azure Functions uses the Function Host Process to execute your JavaScript code i
 
 #### end of it ###
 
-Note: Please use edit mode in github repository if you do not get  comfort veiw of document . Also i am not using any branching strategy here, directly commitming my changes to main branch.
+Note: Please use edit or code mode in github repository if you do not get  comfort veiw of document . Also i am not using any branching strategy here, directly commitming my changes to main branch.
 
 
 
