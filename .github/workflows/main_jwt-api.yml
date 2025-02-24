@@ -1,7 +1,6 @@
-# Docs for the Azure Web Apps Deploy action: https://github.com/azure/functions-action
-# More GitHub Actions for Azure: https://github.com/Azure/actions
+#build and deploy node.js api to azure function app
 
-name: Build and deploy Node.js project to Azure Function App - jwt-api
+name: Build and deploy Node.js api to Azure Function App - jwt-api
 
 on:
   push:
