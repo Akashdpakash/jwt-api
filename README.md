@@ -25,6 +25,7 @@ jwt-api/
 # Function App (jwt-api) contains two functions:
 
 /api/login → Generates a JWT token
+
 /api/hello → Validates the JWT token & returns a response
 
 login function (for user authentication and JWT generation)
