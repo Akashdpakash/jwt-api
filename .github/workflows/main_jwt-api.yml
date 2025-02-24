@@ -68,6 +68,10 @@ jobs:
           client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_FF63EA1EF4D446689F8981D22B61DC0B }}
           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_60C36EBC80C4482FB65F84F23AD6781B }}
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_9404F9FE43C14E989FD7CA3E91842631 }}
+       
+      - name: Set JWT_SECRET in Azure
+        run: |
+          az functionapp config appsettings set --name jwt-api --resource-group hcl --settings JWT_SECRET=${{ secrets.AZURE_JWT_SECRET }}
 
       - name: 'Run Azure Functions Action'
         uses: Azure/functions-action@v1
