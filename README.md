@@ -55,6 +55,7 @@ Triggered function: hello/index.js
 # Flow:
 User sends a GET request to /api/hello, passing the JWT token in the Authorization header.
 Azure Function App routes the request to hello/index.js.
+
 hello/index.js:
 Extracts the token from the header.
 Verifies it using jsonwebtoken.
